@@ -1,0 +1,8 @@
+Flask
+pymongo
+langchain
+langchain-cohere
+langchain-community
+pypdf
+flask-cors
+chromadb
