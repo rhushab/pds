@@ -23,7 +23,9 @@ client = MongoClient(CONNECTION_STRING)
 db = client[DB_NAME]
 collection = db[COLLECTION_NAME]
 
-os.environ['COHERE_API_KEY'] = 'ACs49HfYWoXI2X58AfNe0pFhLRgPN22KTio8pwmk'
+os.environ['COHERE_API_KEY'] = 'Bu1vlH3VVWbz18dKxTXeHi7ttIU9yfYdfA4HW5dz'
+
+# a fresh api key q1hiqLaJB0El4DEJuagf51DdiLqgmQR4aPZSSEZQ
 
 @app.route('/upload', methods=['POST'])
 def upload_pdf():
